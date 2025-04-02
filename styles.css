@@ -33,11 +33,23 @@
 
 .principal h2, footer {
   font-family:'Poppins', sans-serif;
+
 }
 
-.principal h4 {
-  font-family:'Note Music', sans-serif;
+.texto-negrita{
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
 }
+
+
+
+.texto-noto{
+  font-family:'Note Music', sans-serif;
+  opacity: 50%;
+  color: #202124;
+  font-size: 16px;
+}
+
 
 
 
