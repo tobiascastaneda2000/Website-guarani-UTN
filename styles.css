@@ -1,7 +1,13 @@
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  font-family: 'Poppins SemiBold'
+  font-family: 'Poppins SemiBold';
+  font-weight: bold;  
+  font-size: 24px; 
+}
+
+#myNavbar{
+  color: black !important;
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
