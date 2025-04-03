@@ -81,6 +81,19 @@ footer {
   object-fit: cover;
 }
 
+.icono-footer{
+  font-size: 4rem !important;
+  margin: 2%;
+}
+
+.derecha{
+  text-align: right;
+}
+
+.izq{
+  text-align: left;
+}
+
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
   .sidenav {
