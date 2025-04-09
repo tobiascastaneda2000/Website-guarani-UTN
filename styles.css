@@ -1,5 +1,4 @@
-
-body{
+body {
   margin: 0;
   position: relative;
   display: flex;
@@ -11,15 +10,15 @@ body{
   margin-bottom: 0;
   border-radius: 0;
   font-family: 'Poppins SemiBold';
-  font-weight: bold;  
-  font-size: 24px; 
+  font-weight: bold;
+  font-size: 24px;
 }
 
-#myNavbar{
+#myNavbar {
   color: black !important;
 }
 
-.row{
+.row {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,47 +42,58 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: 
-  linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-  url(images/placa-madre.jpg);
-  
+
+
+}
+
+.imagen-fondo {
+  height: 100%;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    url(images/placa-madre.jpg);
+
   background-repeat: no-repeat;
-  
-  
 }
 
-.principal h2, footer {
-  font-family:'Poppins', sans-serif;
+.principal h2,
+footer {
+  font-family: 'Poppins', sans-serif;
 
 }
 
-.texto-negrita{
-  font-family:'Poppins', sans-serif;
+.texto-negrita {
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
 
-.verde{
-  color: #1B5E20; /*Verde 900*/
+.verde {
+  color: #1B5E20;
+  /*Verde 900*/
 }
 
-.texto-noto{
-  font-family:'Note Music', sans-serif;
+.texto-noto {
+  font-family: 'Note Music', sans-serif;
   opacity: 50%;
   color: #202124;
   font-size: 16px;
 }
 
+.azul{
+  background-color: #060D42;
+}
 
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
+  border-radius: 5px;
+  background-color: white;
+  /* 5px rounded corners */
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Add some padding inside the card container */
@@ -92,10 +102,7 @@ body{
 }
 
 
-
-
-
-.texto-footer{
+.texto-footer {
   font-size: 13px;
 }
 
@@ -117,16 +124,16 @@ footer {
   object-fit: cover;
 }
 
-.icono-footer{
+.icono-footer {
   font-size: 4rem !important;
   margin: 2%;
 }
 
-.derecha{
+.derecha {
   text-align: right;
 }
 
-.izq{
+.izq {
   text-align: left;
 }
 
